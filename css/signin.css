@@ -1,0 +1,79 @@
+*, *::after, *::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url('../img/signin-bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+div.pattern{
+	width: 100%;
+	background: url('../img/pattern.png');
+}
+
+header, footer{
+	background: rgba(2, 119, 189, 0.9);
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+header{top: 0;}
+footer{
+	bottom: 0;
+	line-height: 40px;
+}
+
+.valign-wrapper{
+	min-height: 100vh;
+	height: 100%;
+}
+
+form{
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	background: rgba(40, 40, 40, 0.7);
+}
+
+.form-head{
+	background: rgba(2, 119, 189, 0.9);
+	padding: 10px;
+	margin-bottom: 35px;
+}
+
+.form-body{
+	padding: 0 20px 30px;
+}
+
+.form-body input{
+	color: #fff;
+}
+
+.form-body .input-field{
+	min-height: 40px;
+	overflow: auto;
+}
+
+input[type="submit"].btn{
+	width: 100%;
+	padding: 7px 0;
+	height: auto;
+	margin-top: 20px;
+	background: rgba(2, 119, 189, 0.9);
+}
+
+input[type="submit"].btn:hover{
+	background: rgba(2, 119, 189, 0.9);
+}
+
+@media only screen and (max-width : 992px) {
+    footer{
+		position: static;
+	}
+}
+

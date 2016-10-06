@@ -1,0 +1,39 @@
+*, *::after, *::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#sidenav-overlay{z-index: 998;}
+
+nav[role="main"]{
+	padding: 0 0.75rem;
+}
+
+nav .brand-logo{
+	position: static;
+	display: initial;
+}
+
+ul#user-menu.dropdown-content{
+	max-width: 240px !important;
+	width: 100% !important;
+}
+
+/*
+*[role="main"] {
+	padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+	*[role="main"] {
+		padding-left: 0;
+	}
+}
+*/
+
+@media only screen and (max-width : 768px) {
+	{
+		padding-left: 0;
+	}
+}
